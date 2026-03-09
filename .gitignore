@@ -1,6 +1,7 @@
 # Hugo build output
 public/
 resources/_gen/
+.hugo_build.lock
 
 # OS files
 .DS_Store
@@ -11,22 +12,20 @@ Thumbs.db
 *.swo
 *~
 
+# Obsidian (none of this is needed for the Hugo build)
+.obsidian/
+
 # Private notes (never publish)
 _private/
 
-# Obsidian workspace (user-specific, not needed in repo)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/graph.json
+# Obsidian templates (not used by Hugo — Hugo uses archetypes/)
+templates/
 
-# GitHub Publisher token (IMPORTANT: never commit this)
-.obsidian/plugins/obsidian-github-publisher/env
+# Local docs
+SETUP.md
 
-# Claude Code worktrees
+# Claude Code
 .claude/
-
-# Hugo build lock
-.hugo_build.lock
 
 # Node modules (if using any npm-based tools)
 node_modules/
