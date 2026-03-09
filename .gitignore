@@ -22,5 +22,11 @@ _private/
 # GitHub Publisher token (IMPORTANT: never commit this)
 .obsidian/plugins/obsidian-github-publisher/env
 
+# Claude Code worktrees
+.claude/
+
+# Hugo build lock
+.hugo_build.lock
+
 # Node modules (if using any npm-based tools)
 node_modules/

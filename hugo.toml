@@ -1,4 +1,4 @@
-baseURL = "https://yourusername.github.io/"
+baseURL = "https://rchrdhghs.github.io/hghs-co/"
 theme = "mana"
 defaultContentLanguage = "en"
 title = "Hughes Co"
@@ -49,12 +49,8 @@ enableEmoji = true
   heroTitleLine2 = "Tech notes, homelab builds, and things I've learned along the way."
   footerText = "Built with Hugo and Mana theme"
 
-  # Uncomment and fill in your social links
-  # [params.social]
-  #   github = "https://github.com/yourusername"
-  #   linkedin = "https://www.linkedin.com/in/yourprofile"
-  #   twitter = "yourusername"
-  #   email = "your.email@example.com"
+  [params.social]
+    github = "https://github.com/rchrdhghs"
 
   [params.buyMeACoffee]
     enabled = false
@@ -64,7 +60,7 @@ enableEmoji = true
     lightTheme = "catppuccin-frappe"
 
   [params.copyright]
-    startYear = 2025
+    startYear = 2026
     owner = "Rich"
 
   [params.admonitions]

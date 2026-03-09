@@ -8,12 +8,6 @@ description: ""
 tags: []
 categories: []
 series: []
-cover:
-  image: ""
-  alt: ""
-  caption: ""
-ShowToc: true
-TocOpen: false
 ---
 
 ## Introduction
