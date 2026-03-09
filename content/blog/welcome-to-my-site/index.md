@@ -23,7 +23,7 @@ This site is built with a workflow I'm pretty happy with:
 
 - **Writing** happens in [[Obsidian]]
 - **Publishing** is a single hotkey press that pushes content to GitHub via the Enveloppe plugin
-- **Building** is handled by Hugo with the Mana theme, triggered automatically by GitHub Actions
+- **Building** is handled by Hugo with the aafu theme, triggered automatically by GitHub Actions
 - **Hosting** is on GitHub Pages — free, fast, and simple
 
 The entire content pipeline is just markdown files with frontmatter. No database, no CMS backend, no deploy scripts to maintain.

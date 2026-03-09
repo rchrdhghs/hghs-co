@@ -1,0 +1,5 @@
+{
+  "title": "About Me",
+  "icon": "bi bi-person",
+  "description": "I'm Rich — a tech enthusiast who enjoys building homelabs, self-hosting services, and documenting what I learn along the way. This site is built with Hugo and managed through Obsidian. Content is written in markdown, versioned with git, and deployed automatically to GitHub Pages."
+}

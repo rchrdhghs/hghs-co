@@ -1,0 +1,15 @@
+{
+  "title": "Skills",
+  "panelId": "skill-panel",
+  "icon": "bi bi-list-check",
+  "list": [
+    {
+      "skill": "Homelab, Self-Hosting",
+      "skillrating": 80
+    },
+    {
+      "skill": "Networking, Infrastructure",
+      "skillrating": 70
+    }
+  ]
+}

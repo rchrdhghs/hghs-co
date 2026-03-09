@@ -26,7 +26,7 @@ Here's what I landed on:
 
 - **Obsidian** — for writing and organizing content
 - **Enveloppe plugin** — converts wiki-links and pushes content to GitHub
-- **Hugo** — static site generator with the Mana theme
+- **Hugo** — static site generator with the aafu theme
 - **GitHub Actions** — automatic build on push
 - **GitHub Pages** — free hosting
 
@@ -36,7 +36,7 @@ Here's what I landed on:
 
 I write posts as normal Obsidian notes. I use [[wiki-links]] to reference other posts, and the Enveloppe plugin converts these to standard Hugo links when publishing.
 
-Each post lives in its own folder under `content/posts/` with an `index.md` file. Images go in the same folder alongside `index.md`.
+Each post lives in its own folder under `content/blog/` with an `index.md` file. Images go in the same folder alongside `index.md`.
 
 ### Publishing
 

@@ -1,0 +1,45 @@
+baseURL: https://rchrdhghs.github.io/hghs-co/
+languageCode: en-us
+build:
+  writeStats: true
+title: Hughes Co
+theme: aafu
+
+enableRobotsTXT: true
+enableEmoji: true
+
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    noClasses: false
+
+taxonomies:
+  category: categories
+  tag: tags
+
+ignoreFiles:
+  - "themes/aafu/content/"
+
+params:
+  author: Rich
+  description: Tech notes, homelab, and more
+  copyright: powered by [hugo](https://gohugo.io/)
+  theme:
+    mainTheme: dark
+    showAttribute: true
+    singlePage: false
+  accordion:
+    - item: about_me
+      expand: true
+    - item: experiences
+    - item: education
+    - item: skills
+      panel_id: skill-panel
+    - item: hobbies
