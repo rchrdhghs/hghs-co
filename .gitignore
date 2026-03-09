@@ -1,0 +1,26 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Private notes (never publish)
+_private/
+
+# Obsidian workspace (user-specific, not needed in repo)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# GitHub Publisher token (IMPORTANT: never commit this)
+.obsidian/plugins/obsidian-github-publisher/env
+
+# Node modules (if using any npm-based tools)
+node_modules/

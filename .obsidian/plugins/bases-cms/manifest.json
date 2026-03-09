@@ -1,0 +1,10 @@
+{
+  "id": "bases-cms",
+  "name": "Bases CMS",
+  "version": "1.0.0",
+  "minAppVersion": "1.8.0",
+  "description": "Manage your notes in Obsidian bases like a content management system.",
+  "author": "David V. Kimball",
+  "authorUrl": "https://github.com/davidvkimball",
+  "isDesktopOnly": false
+}

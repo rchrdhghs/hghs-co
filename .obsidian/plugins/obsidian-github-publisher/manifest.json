@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-github-publisher",
+  "name": "GitHub Publisher",
+  "version": "7.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Publish your notes to a GitHub repository from Obsidian.",
+  "author": "Mara-Li",
+  "authorUrl": "https://github.com/ObsidianPublisher"
+}

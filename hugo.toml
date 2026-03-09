@@ -1,0 +1,91 @@
+baseURL = "https://yourusername.github.io/"
+theme = "mana"
+defaultContentLanguage = "en"
+title = "Hughes Co"
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[pagination]
+  pageSize = 10
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 6
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    style = "catppuccin-macchiato"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[params]
+  enableIntegrity = false
+  relatedPostsCount = 3
+  description = "Tech notes, homelab, and more"
+  author = "Rich"
+  heroTitleLine1 = "HUGHES CO"
+  heroTitleLine2 = "Tech notes, homelab builds, and things I've learned along the way."
+  footerText = "Built with Hugo and Mana theme"
+
+  # Uncomment and fill in your social links
+  # [params.social]
+  #   github = "https://github.com/yourusername"
+  #   linkedin = "https://www.linkedin.com/in/yourprofile"
+  #   twitter = "yourusername"
+  #   email = "your.email@example.com"
+
+  [params.buyMeACoffee]
+    enabled = false
+
+  [params.codeHighlight]
+    darkTheme = "catppuccin-macchiato"
+    lightTheme = "catppuccin-frappe"
+
+  [params.copyright]
+    startYear = 2025
+    owner = "Rich"
+
+  [params.admonitions]
+    alertStyle = "favicon"
+
+[[menus.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[menus.main]]
+  name = "Posts"
+  pageRef = "/posts"
+  weight = 20
+
+[[menus.main]]
+  name = "Tags"
+  pageRef = "/tags"
+  weight = 30
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
